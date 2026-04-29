@@ -13,7 +13,7 @@ body {
 
 .equipo-item {
     background-color: #1e1e1e;
-    border: 1px solid white;
+    border: 1px solid #d8d8d8;
     border-radius: 5px;
     overflow: hidden;
     width: 20%;
@@ -35,7 +35,7 @@ body {
 }
 
 .equipo-content h3 {
-    color: #ff7f50;
+    color: #ffd6c7;
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

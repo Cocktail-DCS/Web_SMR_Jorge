@@ -21,6 +21,7 @@ img.imagenTNRF {
 .text-container {
     width: 50%;
     background-color: #f0f0f0;
+    color: #202124;
     padding: 20px;
     border-radius: 0px 40px 40px 0px;
     overflow: hidden;

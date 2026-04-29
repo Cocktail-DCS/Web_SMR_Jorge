@@ -32,7 +32,7 @@ header {
 .time-container {
     display: flex;
     align-items: center;
-    background-color: #ff7f50; /* Fondo naranja */
+    background-color: #8f3512; /* Fondo naranja oscuro con contraste AA */
     padding: 5px 10px;
     border-radius: 10px;
     position: absolute;
@@ -74,7 +74,7 @@ header {
 /* Efecto hover */
 .time-item a:hover {
     transform: scale(1.1);
-    color: black;
+    color: #ffffff;
 }
 
 /* Menú de navegación */
@@ -108,7 +108,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #000;
+    color: #ffd6c7;
     transform: scale(1.1);
 }
 
@@ -133,7 +133,7 @@ section {
 }
 
 .menu-principal:hover {
-    color: #ff7f50; /* Cambia el color al pasar el mouse */
+    color: #ffd6c7; /* Cambia el color al pasar el mouse */
 }
 
 /* Submenú (oculto por defecto) */
@@ -166,7 +166,7 @@ section {
 }
 
 .submenu a:hover {
-    color: #000000;
+    color: #ffd6c7;
 }
 
 .icono-desplegable {
@@ -205,7 +205,7 @@ section {
 .search-input:focus {
     width: 250px; /* Expande el input cuando está enfocado */
     outline: none;
-    border: 2px solid #ff7f50; /* Borde color naranja */
+    border: 2px solid #c54f1d; /* Borde color naranja oscuro */
 }
 
 .search-button {
@@ -213,7 +213,7 @@ section {
     border: none;
     font-size: 20px;
     cursor: pointer;
-    color: #333;
+    color: #ffffff;
     transition: transform 0.3s ease;
 }
 
@@ -291,7 +291,7 @@ main {
 }
 
 .titulo-pagina hr {
-    border: 2px solid #ff7f50;
+    border: 2px solid #c54f1d;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -314,11 +314,11 @@ main {
 /*Página activa*/
 
 .activa {
-    color: #ff7f50;
+    color: #ffd6c7;
 }
 h3{
     font-size: 12px;
-    color: #000;
+    color: #202124;
     text-align: left;
 }
 
@@ -337,12 +337,12 @@ h3{
 
 /* Estilo del "thumb" (la parte que se mueve) */
 ::-webkit-scrollbar-thumb {
-    background-color: #ff6347; /* Color del thumb */
+    background-color: #a73a17; /* Color del thumb */
     border-radius: 10px; /* Bordes redondeados */
     border: 3px solid #f0f0f0; /* Borde alrededor del thumb */
 }
 
 /* Cambiar el thumb al hacer hover */
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #ff4500; /* Color más oscuro al hacer hover */
+    background-color: #7f2d0d; /* Color más oscuro al hacer hover */
 }

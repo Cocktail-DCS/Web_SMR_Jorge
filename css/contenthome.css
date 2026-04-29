@@ -55,7 +55,7 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #ff7f50;
+    background-color: #a73a17;
     color: white;
     border: none;
     cursor: pointer;
@@ -75,7 +75,7 @@ body {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: #ff7f50;
+    background-color: #a73a17;
     color: white;
     border-radius: 50%;
     width: 30px;
@@ -142,14 +142,14 @@ body {
 .inicio-correo-input {
     flex: 1; /* Ajusta el input para ocupar espacio flexible */
     padding: 20px;
-    border: 1.5px solid #ff7f50;
+    border: 1.5px solid #a73a17;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 20px;
 }
 
 .inicio-correo-boton {
     padding: 20px 20px;
-    border: 1.5px solid #ff7f50;
+    border: 1.5px solid #c54f1d;
     font-family: 'Horizon';
     background-color: #323333;
     color: white;
@@ -159,11 +159,15 @@ body {
 
 .inicio-correo-boton:hover {
     padding: 20px 20px;
-    border: 1.5px solid #ff7f50;
+    border: 1.5px solid #c54f1d;
     font-family: 'Horizon';
     background-color: #1a1a1a;
     color: white;
     border-radius: 20px;
     transform: scale(1.1);
     cursor: pointer;
+}
+
+.inicio-email-box-content {
+    color: #202124;
 }

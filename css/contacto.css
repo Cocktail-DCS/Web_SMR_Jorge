@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #121212;
-    color: #333;
+    color: #202124;
 }
 
 .contenido-contacto {
@@ -22,7 +22,7 @@ body {
 .contact-info h2, .contact-form h2, .contact-rs h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #ff7f50;
+    color: #a73a17;
 }
 
 .contact-info p {
@@ -58,7 +58,7 @@ form input, form textarea {
 
 form button {
     display: inline-block;
-    background: #007BFF;
+    background: #005fcc;
     color: white;
     padding: 0.8rem 1.5rem;
     border: none;
@@ -69,5 +69,5 @@ form button {
 }
 
 form button:hover {
-    background: #0056b3;
+    background: #003f8f;
 }
