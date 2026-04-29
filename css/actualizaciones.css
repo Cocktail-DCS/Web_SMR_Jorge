@@ -1,0 +1,13 @@
+body {
+    background-color: #121212;
+}
+
+.contenido-updates {
+    background-color: grey;
+    margin: 0;
+    padding: 40px;
+}
+
+.texto-updates {
+    padding: 20px;
+}
